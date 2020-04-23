@@ -7,17 +7,17 @@ jobs:
   check-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Running now'
       - run: sleep 10
       - run: sleep 10
       - run: sleep 10
+      
       - uses: tutu-ru-mobile/cancel-previous-pull-request@tag1.0.0
         with:
           access_token: "${{ secrets.GITHUB_TOKEN }}"
+          
       - run: sleep 10
       - run: sleep 10
       - run: sleep 10
-      - run: echo 'wasnt cancelled'
         
 ```
 
