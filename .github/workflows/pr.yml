@@ -10,8 +10,8 @@ jobs:
       - run: sleep 10
       - run: sleep 10
       - uses: avdeev-dima-tutu/cancel-previous-pull-request@master
-        with:
-          access_token: "${{ secrets.GITHUB_TOKEN }}"
+#         with:
+#           access_token: "${{ secrets.GITHUB_TOKEN }}"
       - run: sleep 10
       - run: sleep 10
       - run: sleep 10
