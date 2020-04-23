@@ -1,0 +1,13 @@
+name: 'Cancel previous on pull_request'
+description: 'Cancel previous on pull_request'
+author: tutu-ru-mobile
+branding:
+  icon: 'stop-circle'  
+  color: 'white'
+inputs:
+  access_token:
+    description: 'Your GitHub Access Token, ie: ${{ secrets.GITHUB_TOKEN }}'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
