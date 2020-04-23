@@ -1,4 +1,4 @@
-##Usage
+## Usage
 ```yaml
 name: Pull Request Cancel Example
 on: [pull_request]
